@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Yii">
+
+    <title>一衣Yii - 租衣平台</title>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+  </head>
+
+  <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
+    <%= render Yii.LayoutView, "header.html" %>
+    <%= render @view_module, @view_template, assigns %>
+    <%= render Yii.LayoutView, "footer.html" %>
+    <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+  </body>
+</html>

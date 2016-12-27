@@ -1,0 +1,220 @@
+<div class="main-container">
+
+  <section class="cover cover-9">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <img alt="Logo" class="logo" src="img/logo-large-dark.png">
+          <p class="lead">
+            A stunning collection of<br> front-end web components.
+          </p>
+          <a class="btn btn--primary vpe" href="#">
+            <span class="btn__text">
+              Take A Tour
+            </span>
+          </a>
+          <a class="btn vpe" href="#">
+            <span class="btn__text">
+              <i class="socicon-apple"></i> Get It On The App Store
+            </span>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <img class="cover__image" alt="Device" src="img/device1.png">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="feature boxed feature-1 text-center">
+            <i class="icon icon-Speach-BubbleDialog"></i>
+            <h5>Chat With Friends</h5>
+            <p>Pillar features a bevy of content blocks and layouts to create your website.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="feature boxed feature-1 text-center">
+            <i class="icon icon-Photos"></i>
+            <h5>Share Moments</h5>
+            <p>A multitude of colour and font options make Pillar's look dynamic and adaptable.</p>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="feature boxed feature-1 text-center">
+            <i class="icon icon-Pizza-Slice"></i>
+            <h5>Organize Events</h5>
+            <p>Buy as many one-use licenses as you need and start building beautiful sites today.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bg--secondary imageblock features features-1">
+    <div class="imageblock__content col-md-5 col-sm-3 pos-left">
+      <div class="background-image-holder" style="background: url(&quot;img/hero8.jpg&quot;); opacity: 1;">
+        <img alt="image" src="img/hero8.jpg">
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-md-push-6 col-sm-8 col-sm-push-4">
+          <h3>Diverse, Beautiful Components</h3>
+          <p class="lead">
+            Pillar features a bevy of content blocks<br class="visible-md visible-lg"> and layouts to create your website.
+          </p>
+          <hr>
+          <div class="col-xs-6">
+            <div class="feature feature-1">
+              <i class="icon icon-Fingerprint"></i>
+              <h5>Over 2,000 Icons</h5>
+              <p>Pillar includes the Icons Mind kit with each purchase.</p>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="feature feature-1">
+              <i class="icon icon-Support"></i>
+              <h5>Support Included</h5>
+              <p>Each Pillar purchase comes with 6 months support included.</p>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="feature feature-1">
+              <i class="icon icon-Astronaut"></i>
+              <h5>Perfect for startups</h5>
+              <p>Including tons of vibrant, carefully styled componenents.</p>
+            </div>
+          </div>
+          <div class="col-xs-6">
+            <div class="feature feature-1">
+              <i class="icon icon-Bag-Coins"></i>
+              <h5>E-commerce styling</h5>
+              <p>Beautiful product pages and unique sidebar cart included.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 text-center">
+          <h3>News &amp; Views</h3>
+          <p class="lead">
+            We share our thoughts on design, business and life in general. Check out the blog for our latest musings.
+          </p>
+        </div>
+      </div>
+      <!--end of row-->
+    </div>
+    <!--end of container-->
+  </section>
+
+  <section class="blog-snippet-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="card card-4">
+              <div class="card__image">
+                <img alt="Pic" src="img/small9.jpg">
+              </div>
+              <div class="card__body boxed boxed--sm bg--white">
+                <h6>Lifestyle</h6>
+                <div class="card__title">
+                  <h5>Living large in a small apartment: One man's quest to downsize</h5>
+                </div>
+                <hr>
+                <div class="card__lower">
+                  <span>by</span>
+                  <span class="h6">Cameron Smith</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--end item-->
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="card card-4">
+              <div class="card__image">
+                <img alt="Pic" src="img/small6.jpg">
+              </div>
+              <div class="card__body boxed boxed--sm bg--white">
+                <h6>Technology</h6>
+                <div class="card__title">
+                  <h5>Good photography is the key to your online presence</h5>
+                </div>
+                <hr>
+                <div class="card__lower">
+                  <span>by</span>
+                  <span class="h6">Robin Banks</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--end item-->
+        <div class="col-md-4 col-sm-6">
+          <a href="#">
+            <div class="card card-4">
+              <div class="card__image">
+                <img alt="Pic" src="img/small1.jpg">
+              </div>
+              <div class="card__body boxed boxed--sm bg--white">
+                <h6>Travel</h6>
+                <div class="card__title">
+                  <h5>Meet the couple who ran their online business from a tent</h5>
+                </div>
+                <hr>
+                <div class="card__lower">
+                  <span>by</span>
+                  <span class="h6">Abby Bollard</span>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <!--end item-->
+      </div>
+      <!--end of row-->
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <a class="btn" href="blog-cards-small.html">
+            <span class="btn__text">
+              View the blog
+            </span>
+          </a>
+        </div>
+      </div>
+      <!--end of row-->
+    </div>
+    <!--end of container-->
+  </section>
+
+  <section class="bg--primary space--sm cta cta-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h4>Interested in working with Pillar?</h4>
+          <a class="btn btn--sm" href="page-contact-form-simple.html">
+            <span class="btn__text">
+              Let's Talk Turkey
+            </span>
+          </a>
+        </div>
+      </div>
+      <!--end of row-->
+    </div>
+    <!--end of container-->
+  </section>
+
+</div>
