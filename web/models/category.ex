@@ -6,8 +6,8 @@ defmodule Yii.Category do
     field :slug, :string
     field :image, :string
     field :description, :string
-    has_many :products, Yii.Product
 
+    has_many :products, Yii.Product
   end
 
   @doc """

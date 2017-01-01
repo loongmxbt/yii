@@ -1,0 +1,155 @@
+<div class="main-container">
+  <section class="height-50  page-title">
+    <div class="container pos-vertical-center">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h1>Yii Blog</h1>
+          <p class="lead">Showcase blog posts in a sylish grid arrangement.</p>
+        </div>
+      </div>
+      <!--end row-->
+    </div>
+    <!--end container-->
+  </section>
+  <section data-sr-id="1">
+    <div class="container">
+      <div class="row">
+        <div class="masonry masonry-blog">
+          <div class="masonry__container masonry--animate masonry--active" >
+            <div class="col-sm-12 masonry__item">
+              <a href="#">
+                <div class="card card--horizontal card-6">
+                  <div class="card__image col-sm-7 col-md-8">
+                    <div class="background-image-holder" style="background: url(&quot;img/small9.jpg&quot;); opacity: 1;">
+                      <img alt="Pic" src="img/small9.jpg">
+                    </div>
+                  </div>
+                  <div class="card__body col-sm-5 col-md-4 boxed boxed--lg bg--white">
+                    <h6>Marketing</h6>
+                    <div class="card__title">
+                      <h4>Advice for stirring your online community and fostering engagement</h4>
+                    </div>
+                    <p>
+                      Sticky note agile personas engaging ship it ideate disrupt earned media.
+                    </p>
+                    <hr>
+                    <div class="card__lower">
+                      <span>by</span>
+                      <span class="h6">Abby Bollard</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!--end item-->
+            <div class="col-sm-12 masonry__item">
+              <a href="#">
+                <div class="card card--horizontal card-6">
+                  <div class="card__image col-sm-7 col-md-8">
+                    <div class="background-image-holder" style="background: url(&quot;img/small8.jpg&quot;); opacity: 1;">
+                      <img alt="Pic" src="img/small8.jpg">
+                    </div>
+                  </div>
+                  <div class="card__body col-sm-5 col-md-4 boxed boxed--lg bg--white">
+                    <h6>Freelancing</h6>
+                    <div class="card__title">
+                      <h4>Do cities need to relax restrictions on coworking spaces?</h4>
+                    </div>
+                    <p>
+                      Sticky note agile personas engaging ship it ideate disrupt earned media.
+                    </p>
+                    <hr>
+                    <div class="card__lower">
+                      <span>by</span>
+                      <span class="h6">Amy Bowden</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!--end item-->
+            <div class="col-sm-12 masonry__item">
+              <a href="#">
+                <div class="card card--horizontal card-6">
+                  <div class="card__image col-sm-7 col-md-8">
+                    <div class="background-image-holder" style="background: url(&quot;img/small2.jpg&quot;); opacity: 1;">
+                      <img alt="Pic" src="img/small2.jpg">
+                    </div>
+                  </div>
+                  <div class="card__body col-sm-5 col-md-4 boxed boxed--lg bg--white">
+                    <h6>Technology</h6>
+                    <div class="card__title">
+                      <h4>Opinion: Mobile camera apps have reached saturation point</h4>
+                    </div>
+                    <p>
+                      Sticky note agile personas engaging ship it ideate disrupt earned media.
+                    </p>
+                    <hr>
+                    <div class="card__lower">
+                      <span>by</span>
+                      <span class="h6">Cameron Smith</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!--end item-->
+            <div class="col-sm-12 masonry__item">
+              <a href="#">
+                <div class="card card--horizontal card-6">
+                  <div class="card__image col-sm-7 col-md-8">
+                    <div class="background-image-holder" style="background: url(&quot;img/small10.jpg&quot;); opacity: 1;">
+                      <img alt="Pic" src="img/small10.jpg">
+                    </div>
+                  </div>
+                  <div class="card__body col-sm-5 col-md-4 boxed boxed--lg bg--white">
+                    <h6>Lifestyle</h6>
+                    <div class="card__title">
+                      <h4>Doing more with less: A guide to downsized living</h4>
+                    </div>
+                    <p>
+                      Sticky note agile personas engaging ship it ideate disrupt earned media.
+                    </p>
+                    <hr>
+                    <div class="card__lower">
+                      <span>by</span>
+                      <span class="h6">Abby Bollard</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!--end item-->
+          </div>
+          <!--end of masonry container-->
+        </div>
+        <!--end masonry-->
+      </div>
+      <div class="pagination-container">
+        <hr>
+        <ul class="pagination">
+          <li>
+            <a href="#">
+              <span>←</span>
+            </a>
+          </li>
+          <li class="active">
+            <a href="#">1</a>
+          </li>
+          <li>
+            <a href="#">2</a>
+          </li>
+          <li>
+            <a href="#">3</a>
+          </li>
+          <li>
+            <a href="#">
+              <span>→</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--end of container-->
+  </section>
+</div>

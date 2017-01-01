@@ -1,21 +1,24 @@
 <div class="main-container">
 
   <section class="cover cover-9">
+    <div class="background-image-holder" style="background: url(&quot;/img/large7.jpg&quot;); opacity: 0.2;">
+        <img alt="image" src="img/large11.jpg">
+    </div>
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <img alt="Logo" class="logo" src="img/logo-large-dark.png">
+          <img alt="Logo" class="logo" src="img/yii-logo-dark.png">
           <p class="lead">
-            A stunning collection of<br> front-end web components.
+            您身边的移动衣柜，万款品牌随心换穿
           </p>
-          <a class="btn btn--primary vpe" href="#">
+          <a class="btn btn--primary vpe" href="/page/app">
             <span class="btn__text">
-              Take A Tour
+              <i class="fa fa-play"></i> 观看如何随借随还
             </span>
           </a>
-          <a class="btn vpe" href="#">
+          <a class="btn vpe" href="/page/app">
             <span class="btn__text">
-              <i class="socicon-apple"></i> Get It On The App Store
+              <i class="fa fa-weixin"></i> 获取微信小程序
             </span>
           </a>
         </div>
@@ -34,21 +37,21 @@
         <div class="col-sm-4">
           <div class="feature boxed feature-1 text-center">
             <i class="icon icon-Speach-BubbleDialog"></i>
-            <h5>Chat With Friends</h5>
+            <h5>穿搭交流</h5>
             <p>Pillar features a bevy of content blocks and layouts to create your website.</p>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="feature boxed feature-1 text-center">
             <i class="icon icon-Photos"></i>
-            <h5>Share Moments</h5>
+            <h5>美图分享</h5>
             <p>A multitude of colour and font options make Pillar's look dynamic and adaptable.</p>
           </div>
         </div>
         <div class="col-sm-4">
           <div class="feature boxed feature-1 text-center">
             <i class="icon icon-Pizza-Slice"></i>
-            <h5>Organize Events</h5>
+            <h5>月底赠衣</h5>
             <p>Buy as many one-use licenses as you need and start building beautiful sites today.</p>
           </div>
         </div>
@@ -65,7 +68,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 col-md-push-6 col-sm-8 col-sm-push-4">
-          <h3>Diverse, Beautiful Components</h3>
+          <h3>时尚生活轻松零负担</h3>
           <p class="lead">
             Pillar features a bevy of content blocks<br class="visible-md visible-lg"> and layouts to create your website.
           </p>
@@ -73,28 +76,28 @@
           <div class="col-xs-6">
             <div class="feature feature-1">
               <i class="icon icon-Fingerprint"></i>
-              <h5>Over 2,000 Icons</h5>
+              <h5>千种款式</h5>
               <p>Pillar includes the Icons Mind kit with each purchase.</p>
             </div>
           </div>
           <div class="col-xs-6">
             <div class="feature feature-1">
               <i class="icon icon-Support"></i>
-              <h5>Support Included</h5>
+              <h5>极致服务</h5>
               <p>Each Pillar purchase comes with 6 months support included.</p>
             </div>
           </div>
           <div class="col-xs-6">
             <div class="feature feature-1">
               <i class="icon icon-Astronaut"></i>
-              <h5>Perfect for startups</h5>
+              <h5>量身定制</h5>
               <p>Including tons of vibrant, carefully styled componenents.</p>
             </div>
           </div>
           <div class="col-xs-6">
             <div class="feature feature-1">
               <i class="icon icon-Bag-Coins"></i>
-              <h5>E-commerce styling</h5>
+              <h5>随时购买</h5>
               <p>Beautiful product pages and unique sidebar cart included.</p>
             </div>
           </div>
@@ -107,7 +110,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2 text-center">
-          <h3>News &amp; Views</h3>
+          <h3>标准 &amp; 规范</h3>
           <p class="lead">
             We share our thoughts on design, business and life in general. Check out the blog for our latest musings.
           </p>
@@ -130,7 +133,8 @@
               <div class="card__body boxed boxed--sm bg--white">
                 <h6>Lifestyle</h6>
                 <div class="card__title">
-                  <h5>Living large in a small apartment: One man's quest to downsize</h5>
+                  <h5>符合国际标准ISO8230的星级清洗</h5>
+                  <p>每一件衣服都打理如新</p>
                 </div>
                 <hr>
                 <div class="card__lower">
@@ -151,7 +155,8 @@
               <div class="card__body boxed boxed--sm bg--white">
                 <h6>Technology</h6>
                 <div class="card__title">
-                  <h5>Good photography is the key to your online presence</h5>
+                  <h5>衣服丢失及损坏保险</h5>
+                  <p>与平安保险合作，不用担心衣物损坏</p>
                 </div>
                 <hr>
                 <div class="card__lower">
@@ -172,7 +177,8 @@
               <div class="card__body boxed boxed--sm bg--white">
                 <h6>Travel</h6>
                 <div class="card__title">
-                  <h5>Meet the couple who ran their online business from a tent</h5>
+                  <h5>VIP会员积分制度</h5>
+                  <p>积分可换取顶级设计师定制衣服</p>
                 </div>
                 <hr>
                 <div class="card__lower">
@@ -188,7 +194,7 @@
       <!--end of row-->
       <div class="row">
         <div class="col-sm-12 text-center">
-          <a class="btn" href="blog-cards-small.html">
+          <a class="btn" href="/posts">
             <span class="btn__text">
               View the blog
             </span>
@@ -204,10 +210,10 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
-          <h4>Interested in working with Pillar?</h4>
+          <h4>对衣一租衣感兴趣？</h4>
           <a class="btn btn--sm" href="page-contact-form-simple.html">
             <span class="btn__text">
-              Let's Talk Turkey
+              立即下载APP注册吧！
             </span>
           </a>
         </div>
@@ -218,3 +224,24 @@
   </section>
 
 </div>
+
+
+<div class="modal-container" data-modal-index="0">
+  <div class="modal-content bg-white imagebg" data-width="50%" data-height="50%" data-overlay="5" style="width: 50%; height: 65%;">
+    <div class="background-image-holder" style="background: url(&quot;/img/hero23.jpg&quot;); opacity: 1;">
+      <img alt="image" src="img/hero23.jpg">
+    </div>
+    <div class="pos-vertical-center clearfix">
+      <div class="col-sm-6 col-sm-offset-1">
+        <h2>Shop Selected Summer Savings</h2>
+        <p>
+          Up to 60% off our remaining summer collection. Limited stock only - get in quick.
+        </p>
+        <a class="btn" href="#">
+          <span class="btn__text">Enter Sale</span>
+        </a>
+      </div>
+    </div>
+    <div class="modal-close modal-close-cross"></div></div>
+    <!--end of modal-content-->
+  </div>

@@ -6,6 +6,7 @@ defmodule Yii.Sku do
     field :cycles, :integer
     field :code, :string
     field :location, :string
+    
     belongs_to :product, Yii.Product
     belongs_to :user, Yii.User
     belongs_to :status, Yii.Status

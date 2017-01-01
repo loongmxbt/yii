@@ -3,8 +3,8 @@ defmodule Yii.Status do
 
   schema "statuses" do
     field :name, :string
-    has_many :skus, Yii.Sku
 
+    has_many :skus, Yii.Sku
   end
 
   @doc """

@@ -6,7 +6,9 @@ defmodule Yii.Tag do
     field :slug, :string
     field :image, :string
     field :description, :string
-
+    
+    has_many :products_tags, Yii.ProductTag
+    has_many :products, through: [:products_tags, :product]
   end
 
   @doc """

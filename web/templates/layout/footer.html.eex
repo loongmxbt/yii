@@ -2,21 +2,17 @@
   <div class="container">
       <div class="row">
           <div class="col-md-3 col-sm-4">
-              <a href="#"><img alt="Pillar" class="logo" src="img/logo-light.png"></a>
-              <p><em>Full-service</em> design and<br>
-              development in Melbourne</p>
+              <a href="#"><img alt="Pillar" class="logo" src="/img/yii-logo-light.png"></a>
+              <p>您身边的移动衣柜</p>
           </div>
           <div class="col-md-5 col-sm-8">
               <h6>Navigate</h6>
               <ul class="footer__navigation">
                   <li class="vpe">
-                      <a href="#"><span>About Us</span></a>
+                      <a href="/page/about"><span>About Us</span></a>
                   </li>
                   <li class="vpe">
-                      <a href="#"><span>Services</span></a>
-                  </li>
-                  <li class="vpe">
-                      <a href="#"><span>Selected Work</span></a>
+                      <a href="/page/service"><span>Services</span></a>
                   </li>
                   <li class="vpe">
                       <a href="#"><span>Get In Touch</span></a>
@@ -24,7 +20,7 @@
               </ul>
               <ul class="footer__navigation">
                   <li class="vpe">
-                      <a href="#"><span>Planner</span></a>
+                      <a href="#"><span>Partner</span></a>
                   </li>
                   <li class="vpe">
                       <a href="#"><span>Careers</span></a>
@@ -36,7 +32,7 @@
           </div>
           <div class="col-md-4 col-sm-12">
               <h6>Subscribe</h6>
-              <p>Get monthly updates and free resources.</p>
+              <p>获取每周最潮穿搭经！</p>
               <form class="form--merge form--no-labels form--active" action="http://mrareco.createsend.com/t/d/s/kieth/?callback=?" method="post" id="subForm" data-error="Please fill all fields correctly." data-success="Thanks for signing up! Please check your inbox for confirmation email." novalidate="novalidate">
                 <br>
                 <input class="col-md-8 col-sm-6 validate-required validate-email" id="fieldEmail" name="cm-kieth-kieth" type="email" placeholder="Email Address">
@@ -49,8 +45,8 @@
               <hr>
           </div>
           <div class="col-sm-6">
-              <span class="type--fine-print">© Copyright <span class="update-year">2016</span> Medium Rare - All Rights
-              Reserved</span>
+              <span class="type--fine-print">© Copyright <span class="update-year">2017</span> 衣一 - All Rights
+              Reserved. YiiYii.net <a href="http://www.miitbeian.gov.cn/">沪ICP备16046497号-4</a></span>
           </div>
           <div class="col-sm-6 text-right text-center-xs">
               <ul class="social-list">

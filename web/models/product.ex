@@ -6,8 +6,11 @@ defmodule Yii.Product do
     field :price, :integer
     field :image, :string
     field :description, :string
+    
     belongs_to :category, Yii.Category
     has_many :skus, Yii.Sku
+    has_many :products_tags, Yii.ProductTag
+    has_many :tags, through: [:products_tags, :tag]
 
     timestamps()
   end

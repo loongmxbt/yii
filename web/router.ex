@@ -39,6 +39,9 @@ defmodule Yii.Router do
     pipe_through :browser # Use the default browser stack
 
     get "/", PageController, :index
+    get "/page/:slug", PageController, :show
+    get "/posts", PostController, :index
+    get "/posts/:id", PostController, :show
   end
 
   scope "/admin", ExAdmin do

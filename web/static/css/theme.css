@@ -93,7 +93,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -957,7 +957,7 @@ a {
 }
 /**! 8. Buttons **/
 .btn {
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   transition: 0.1s linear;
   -webkit-transition: 0.1s linear;
   -moz-transition: 0.1s linear;
@@ -977,7 +977,7 @@ a {
   color: #343434;
   border-color: #343434;
   font-weight: 400;
-  font-size: 0.625em;
+  font-size: 0.85em;
 }
 .btn + .btn {
   margin-left: 1.625em;
@@ -1275,7 +1275,7 @@ nav {
   font-size: 10px;
   font-weight: 400;
   letter-spacing: 0px;
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
 }
 .menu > li > a {
   padding: 0 1.3em;
@@ -2900,7 +2900,7 @@ form[action*='createsend.com'] p > label:first-child {
   margin-bottom: 0.8125em;
 }
 form[action*='list-manage.com'] h2 {
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -3114,12 +3114,7 @@ body.theme--boxed section:not(.bg--white):not(.bg--dark):not(.bg--secondary):not
     font-size: 87.5%;
   }
 }
-@font-face {
-  font-family: 'Montserrat';
-  src: url('../fonts/Montserrat-SemiBold.otf') format('opentype');
-  font-weight: 600;
-  font-style: normal;
-}
+
 h1,
 h2,
 h3,
@@ -3926,7 +3921,7 @@ textarea {
   background: #f8f8f8;
 }
 label {
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -4863,7 +4858,7 @@ li + li .input-checkbox {
   opacity: 0;
 }
 .twitter-feed .timePosted a {
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -5368,7 +5363,7 @@ section.features .feature-2 {
   content: attr(data-value);
   position: absolute;
   right: 1.625em;
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -5390,7 +5385,7 @@ section.features .feature-2 {
   content: attr(data-value) '%';
   position: absolute;
   right: 0;
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -6630,7 +6625,7 @@ section:first-of-type.imagebg + .masonry-contained {
   border-radius: 50% !important;
   background: none;
   border: none;
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -7280,7 +7275,7 @@ footer .logo {
   opacity: .05;
 }
 .footer-1 .footer__navigation li {
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -7315,7 +7310,7 @@ footer .logo {
 }
 .footer-2 .footer__navigation li {
   display: inline-block;
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -7364,7 +7359,7 @@ footer .logo {
   margin-right: 3.25em;
 }
 .footer-3 .footer__navigation li a {
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
@@ -7417,7 +7412,7 @@ footer .logo {
   opacity: .9;
 }
 .footer-4 .footer__navigation li {
-  font-family: 'Montserrat', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica', 'Arial', sans-serif;
   color: #343434;
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
