@@ -24,7 +24,8 @@ defmodule Yii.Mixfile do
     [mod: {Yii, []},
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
                     :phoenix_ecto, :postgrex,
-                    :coherence]]
+                    :coherence],
+     included_applications: [:ex_admin]]
   end
 
   # Specifies which paths to compile per environment.
