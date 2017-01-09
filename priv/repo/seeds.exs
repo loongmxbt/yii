@@ -1,4 +1,4 @@
-alias Yii.{Repo, User, Category, Status, Product, Tag, ProductTag}
+alias Yii.{Repo, User, Category, Status, Product, Tag, ProductTag, Sku, Order}
 
 User.changeset(%User{}, %{name: "dragonszy", email: "dragonszy@163.com", password: "szy555", password_confirmation: "szy555"})
 |> Repo.insert!
@@ -33,3 +33,11 @@ ProductTag.changeset(%ProductTag{}, %{product_id: 2, tag_id: 6}) |> Repo.insert!
 ProductTag.changeset(%ProductTag{}, %{product_id: 3, tag_id: 2}) |> Repo.insert!
 ProductTag.changeset(%ProductTag{}, %{product_id: 3, tag_id: 3}) |> Repo.insert!
 ProductTag.changeset(%ProductTag{}, %{product_id: 3, tag_id: 5}) |> Repo.insert!
+
+
+Sku.changeset(%Sku{}, %{price: 15, cycles: 2, code: "xxxx-xxxx-xxxx", location: "北京昌平库房", product_id: 1, status_id: 1, user_id: 1})
+|> Repo.insert!
+
+
+Order.changeset(%Order{}, %{height: 180, weight: 60, size: "L", detail: "需要领带", destination: "华北电力大学", product_id: 1, user_id: 1, sku_id: 1})
+|> Repo.insert!

@@ -7,6 +7,7 @@ defmodule Yii.User do
     field :email, :string
     coherence_schema
 
+    has_many :orders, Yii.Order
     timestamps
   end
 

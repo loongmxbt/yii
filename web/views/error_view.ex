@@ -5,6 +5,10 @@ defmodule Yii.ErrorView do
     render "not_found.html"
   end
 
+  def render("403.html", _assigns) do
+    render "fobidden.html"
+  end
+
   def render("500.html", _assigns) do
     render "server_error.html"
   end

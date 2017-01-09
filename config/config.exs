@@ -39,7 +39,8 @@ config :ex_admin,
     Yii.ExAdmin.Tag,
     Yii.ExAdmin.Sku,
     Yii.ExAdmin.Product,
-    Yii.ExAdmin.User
+    Yii.ExAdmin.User,
+    Yii.ExAdmin.Order
   ]
 
 # %% Coherence Configuration %%   Don't remove this line
