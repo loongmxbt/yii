@@ -42,6 +42,8 @@ defmodule Yii.Router do
     get "/page/:slug", PageController, :show
     get "/posts", PostController, :index
     get "/posts/:id", PostController, :show
+
+    resources "/products", ProductController, only: [:index, :show]
   end
 
   scope "/admin", ExAdmin do

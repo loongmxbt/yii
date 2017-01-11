@@ -127,7 +127,7 @@ h5,
 }
 h6,
 .h6 {
-  font-size: 0.625em;
+  font-size: 0.825em;
   line-height: 2.6em;
 }
 .lead {
@@ -3926,7 +3926,7 @@ label {
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
   margin-bottom: 0;
-  font-size: 0.625em;
+  font-size: 0.825em;
   line-height: 2.6em;
   margin-top: 0;
   text-transform: uppercase;
@@ -3942,7 +3942,7 @@ label + input {
 }
 button {
   height: 52px;
-  font-size: 0.625em !important;
+  font-size: 0.825em !important;
   letter-spacing: 1px;
   color: #fff;
   background: #425cbb;
@@ -4863,7 +4863,7 @@ li + li .input-checkbox {
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
   margin-bottom: 0;
-  font-size: 0.625em;
+  font-size: 0.825em;
   line-height: 2.6em;
   margin-top: 0;
   text-transform: uppercase;
@@ -5368,7 +5368,7 @@ section.features .feature-2 {
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
   margin-bottom: 0;
-  font-size: 0.625em;
+  font-size: 0.825em;
   line-height: 2.6em;
   margin-top: 0;
   text-transform: uppercase;
@@ -5390,7 +5390,7 @@ section.features .feature-2 {
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
   margin-bottom: 0;
-  font-size: 0.625em;
+  font-size: 0.825em;
   line-height: 2.6em;
   margin-top: 0;
   text-transform: uppercase;
@@ -5652,7 +5652,7 @@ section.features .feature-2 {
   margin-bottom: 0;
 }
 .card .card__lower span:not(.h6) {
-  font-size: 0.625em;
+  font-size: 0.825em;
   font-style: italic;
   display: inline-block;
   color: #767676;
@@ -6630,7 +6630,7 @@ section:first-of-type.imagebg + .masonry-contained {
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
   margin-bottom: 0;
-  font-size: 0.625em;
+  font-size: 0.825em;
   line-height: 2.6em;
   margin-top: 0;
   text-transform: uppercase;
@@ -6710,7 +6710,7 @@ section:first-of-type.imagebg + .masonry-contained {
   margin-top: 3.25em;
 }
 .blog-post .blog-post__author span:not(.h6) {
-  font-size: 0.625em;
+  font-size: 0.825em;
 }
 .blog-post .blog-post__hero {
   margin-bottom: 3.25em;
@@ -7280,7 +7280,7 @@ footer .logo {
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
   margin-bottom: 0;
-  font-size: 0.625em;
+  font-size: 0.825em;
   line-height: 2.6em;
   margin-top: 0;
   text-transform: uppercase;
@@ -7364,7 +7364,7 @@ footer .logo {
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
   margin-bottom: 0;
-  font-size: 0.625em;
+  font-size: 0.825em;
   line-height: 2.6em;
   margin-top: 0;
   text-transform: uppercase;
@@ -7417,7 +7417,7 @@ footer .logo {
   font-weight: 600;
   font-variant-ligatures: common-ligatures;
   margin-bottom: 0;
-  font-size: 0.625em;
+  font-size: 0.825em;
   line-height: 2.6em;
   margin-top: 0;
   text-transform: uppercase;

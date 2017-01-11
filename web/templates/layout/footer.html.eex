@@ -9,13 +9,13 @@
               <h6>Navigate</h6>
               <ul class="footer__navigation">
                   <li class="vpe">
-                      <a href="/page/about"><span>About Us</span></a>
+                      <a href="/page/about"><span>关于我们</span></a>
                   </li>
                   <li class="vpe">
-                      <a href="/page/service"><span>Services</span></a>
+                      <a href="/page/service"><span>服务条款</span></a>
                   </li>
                   <li class="vpe">
-                      <a href="#"><span>Get In Touch</span></a>
+                      <a href="/page/contact"><span>联系我们</span></a>
                   </li>
               </ul>
               <ul class="footer__navigation">
