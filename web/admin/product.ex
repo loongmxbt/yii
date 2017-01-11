@@ -38,6 +38,20 @@ defmodule Yii.ExAdmin.Product do
       end
     end
 
+    form product do
+      inputs do
+        input product, :name
+        input product, :price
+        input product, :image
+        input product, :description
+        input product, :category, collection: Repo.all(Category)
+      end
+      inputs "Tags" do
+        inputs :tags, as: :check_boxes, collection: Repo.all(Tag)
+      end
+    end
+
+    # https://github.com/smpallen99/ex_admin/issues/266
     query do
       %{
         all: [preload: [:tags, :category, :skus]]
