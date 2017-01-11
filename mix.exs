@@ -46,7 +46,8 @@ defmodule Yii.Mixfile do
      {:cowboy, "~> 1.0"},
      {:ex_admin, github: "smpallen99/ex_admin"},
      {:coherence, "~> 0.3"},
-     {:distillery, "~> 1.0"}]
+     {:distillery, "~> 1.0"},
+     {:bodyguard, "~> 0.5.0"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.

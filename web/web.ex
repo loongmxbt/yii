@@ -19,10 +19,13 @@ defmodule Yii.Web do
   def model do
     quote do
       use Ecto.Schema
+      # alias Yii.Repo
 
       import Ecto
       import Ecto.Changeset
       import Ecto.Query
+
+      # def all, do: Repo.all(__MODULE__)
     end
   end
 
@@ -36,6 +39,8 @@ defmodule Yii.Web do
 
       import Yii.Router.Helpers
       import Yii.Gettext
+
+      import Bodyguard.Controller
     end
   end
 
@@ -52,6 +57,8 @@ defmodule Yii.Web do
       import Yii.Router.Helpers
       import Yii.ErrorHelpers
       import Yii.Gettext
+
+      import Bodyguard.ViewHelpers
     end
   end
 

@@ -4,40 +4,45 @@ defmodule Yii.ExAdmin.Product do
 
   register_resource Yii.Product do
     menu priority: 31, label: "商品"
-  end
+    index do
+      selectable_column
 
-  show product do
-    attributes_table do
-      row :name
-      row :price
-      row :image
-      row :description
-      row :category
+      column :id
+      column :name
+      column :price
+      column :category
+      actions
     end
-    panel "Tags" do
-      # table_for product.tags do
-      #   column :name, link: true
-      # end
-    end
-  end
 
-  form product do
-    inputs do
-      input product, :name
-      input product, :price
-      input product, :image
-      input product, :description
-      input product, :category, collection: Repo.all(Category)
+    show product do
+      attributes_table do
+        row :id
+        row :name
+        row :price
+        row :category
+        row :image
+        row :description
+      end
+      panel "商品标签" do
+        table_for product.tags do
+          column :name
+        end
+      end
+      panel "商品Sku" do
+        table_for product.skus do
+          column :code
+          column :price
+          column :cycles
+          column :location
+        end
+      end
     end
-    inputs "Tags" do
-      inputs :tags, as: :check_boxes, collection: Repo.all(Tag)
-    end
-  end
 
-  # Issue: https://github.com/smpallen99/ex_admin/issues/266
-  query do
-    %{
-      all: [preload: [:tags]]
-    }
+    query do
+      %{
+        all: [preload: [:tags, :category, :skus]]
+      }
+    end
+
   end
 end
