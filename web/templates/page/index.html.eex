@@ -61,8 +61,8 @@
 
   <section class="bg--secondary imageblock features features-1">
     <div class="imageblock__content col-md-5 col-sm-3 pos-left">
-      <div class="background-image-holder" style="background: url(&quot;img/hero8.jpg&quot;); opacity: 1;">
-        <img alt="image" src="img/hero8.jpg">
+      <div class="background-image-holder" style="background: url(&quot;img/babyswl.jpg&quot;); opacity: 1;">
+        <img alt="image" src="img/babyswl.jpg">
       </div>
     </div>
     <div class="container">
