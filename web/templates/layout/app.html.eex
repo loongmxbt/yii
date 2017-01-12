@@ -9,7 +9,7 @@
 
     <title>衣一租衣 - 时尚移动衣柜</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
-    <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   </head>
 
   <body data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">

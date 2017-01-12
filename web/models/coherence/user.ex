@@ -5,6 +5,9 @@ defmodule Yii.User do
   schema "users" do
     field :name, :string
     field :email, :string
+    field :phone, :string
+    field :weixin, :string
+    field :weibo, :string
     coherence_schema
 
     has_many :orders, Yii.Order
@@ -13,8 +16,8 @@ defmodule Yii.User do
 
   def changeset(model, params \\ %{}) do
     model
-    |> cast(params, [:name, :email] ++ coherence_fields)
-    |> validate_required([:name, :email])
+    |> cast(params, [:name, :email, :phone, :weixin, :weibo] ++ coherence_fields)
+    |> validate_required([:name, :email, :phone])
     |> validate_format(:email, ~r/@/)
     |> unique_constraint(:email)
     |> validate_coherence(params)

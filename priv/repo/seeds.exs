@@ -1,6 +1,6 @@
 alias Yii.{Repo, User, Category, Status, Product, Tag, ProductTag, Sku, Order}
 
-User.changeset(%User{}, %{name: "dragonszy", email: "dragonszy@163.com", password: "szy555", password_confirmation: "szy555"})
+User.changeset(%User{}, %{name: "dragonszy", email: "dragonszy@163.com", phone: "13681172909", password: "szy555", password_confirmation: "szy555"})
 |> Repo.insert!
 
 Category.changeset(%Category{}, %{name: "男士西服套装", slug: "man-suit"}) |> Repo.insert!
